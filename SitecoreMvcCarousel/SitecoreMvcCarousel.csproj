@@ -88,7 +88,7 @@
     <Content Include="Views\Renderings\Carousel\Carousel_%28ItemRendering%29.cshtml" />
     <Content Include="Views\Renderings\Carousel\StandardCarouselSlide.cshtml" />
     <Content Include="Views\Renderings\Carousel\VideoCarouselSlide.cshtml" />
-    <None Include="Views\Web.config" />
+    <Content Include="Views\Web.config" />
     <Content Include="Views\Layouts\SampleMvcLayout.cshtml" />
     <Content Include="Views\Renderings\Carousel\Carousel_%28ControllerRendering%29.cshtml" />
     <Content Include="Views\Renderings\Sample\SampleInnerView.cshtml" />
