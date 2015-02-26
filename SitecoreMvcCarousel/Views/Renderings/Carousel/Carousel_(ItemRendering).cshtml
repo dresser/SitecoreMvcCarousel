@@ -1,0 +1,7 @@
+﻿@model SitecoreMvcCarousel.Models.CarouselRenderingModel
+<div class="carousel">
+    @foreach (var carouselSlide in Model.CarouselSlides)
+    {
+        @Html.Sitecore().ItemRendering(carouselSlide)
+    }
+</div>

@@ -1,0 +1,14 @@
+﻿<div class="carousel">
+    @foreach (var carouselSlide in Model.Item.Children)
+    {
+        <div class="carousel-slide">
+            <div class="carousel-slide-content">
+                <h1>@Html.Sitecore().Field("Header", carouselSlide)</h1>
+                <p>@Html.Sitecore().Field("SubHead", carouselSlide)</p>
+                @Html.Sitecore().Field("CallToAction", carouselSlide)
+            </div>
+            @Html.Sitecore().Field("Background", carouselSlide)
+            <div class="clearfix"></div>
+        </div>
+    }
+</div>
